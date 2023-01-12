@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+
+    <form id="form">
+        <div class="form-details">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text" name="" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-details">
+            <label for="email" id="label-email">
+                Email
+            </label>
+            <input type="email" name="" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-details">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="text" id="age" placeholder="Enter your age">
+        </div>
+        <div class="form-details">
+            <label for="role" id="label-kaam">
+                Select your kaam!!
+            </label>
+            <select name="kaam" id="kaam">
+                <option value=""></option>
+                <option value="Student">Student</option>
+                <option value="Intern">Intern</option>
+                <option value="Professional">Professional</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-details">
+            <label for="">
+                would you like to work with us?
+            </label>
+            <label for="yes-1">
+                <input type="radio" id="yes-1" name="yes">Yes</input>
+            </label>
+            <label for="yes-2">
+                <input type="radio" id="yes-2" name="yes">No</input>
+            </label>
+            <label for="yes-3">
+                <input type="radio" id="yes-3" name="yes">will see</input>
+            </label>
+        </div>
+        <div class="form-details">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Cpp</input></label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Spring</input></label>
+        </div>
+        <div class="form-details">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>

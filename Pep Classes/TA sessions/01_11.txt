@@ -1,0 +1,20 @@
+Date:1/11/2023
+------ REACT------
+it's a library of javascript
+    --->Characterstics<---
+    1.Easy to use
+    2.we can reuse the code
+    3.Single page Application
+    4.Component based Architecture
+    ----Virtual dom..V/S..Real dom----
+    virtual  dom:it's create the copy of the web page after which it see the difference between the page and it update the current page with new things
+ 
+---->HTML CSS<----
+left side there will be a logo 
+------------------X-----------------------X---------------------------------X---------------------------------------------------X-------------
+
+Date:1/12/2023
+
+----->Functions<-------
+why console is used?
+=>
