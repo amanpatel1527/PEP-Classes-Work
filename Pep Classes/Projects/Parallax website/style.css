@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax-1{
+    width: 100%;
+    height: 600px;
+    background: url(/img1.webp);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.parallax-1 h2{
+    margin: auto;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 250px;
+    height: 32px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.parallax-2 h2{
+    margin: auto;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para-1{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.para-2{
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
